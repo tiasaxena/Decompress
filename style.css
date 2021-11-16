@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(#1c0c5b, #3d2c8d, #916bbf, #915f94);
+  min-height: 100vh;
+  text-align: center;
+}
+
+.btn {
+  background-image: linear-gradient(#916bbf, #915f94);
+  color: white;
+}
+.btn:hover {
+  color: #1c0c5b;
+}
+
+.card {
+  margin: 2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.decompress {
+  margin-top: 4rem;
+  color: white;
+  font-family: "Press Start 2P";
+}
+
+.decompress h1 {
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 769px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .decompress h1 {
+    font-size: 1.5rem;
+  }
+  .decompress p {
+    font-size: 0.7rem;
+  }
+}

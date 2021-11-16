@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(#1c0c5b, #3d2c8d, #916bbf, #915f94);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Press Start 2P";
+  color: white;
+}
+
+.btn {
+  margin-top: 0.1rem;
+  margin-bottom: 0.3rem;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.btn:hover {
+  color: #1c0c5b;
+  background-color: white;
+}
+
+#canvas {
+  margin-top: 1rem;
+  box-shadow: black 20px 10px 50px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h4 {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.game-over {
+  background-image: rgb(184, 0, 0);
+}

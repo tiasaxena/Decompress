@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: rgb(31, 29, 54); */
+  background-image: linear-gradient(#1c0c5b, #3d2c8d, #916bbf, #c996cc);
+  min-height: 100vh;
+  font-family: "Press Start 2P";
+}
+
+.button {
+  width: 100%;
+  text-align: center;
+}
+
+.btn {
+  margin-top: 1rem;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.btn:hover {
+  color: #1c0c5b;
+  background-color: white;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 13.5rem;
+  height: 13.5rem;
+  margin: 1.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 0.5rem solid black;
+  box-shadow: 0 4px 8px 0, 0 6px 20px 0 black;
+}
+
+.box1 {
+  background-image: linear-gradient(#34be82, white);
+}
+.box2 {
+  background-image: linear-gradient(#f2f013, white);
+}
+.box3 {
+  background-image: linear-gradient(white, #a9333a);
+}
+.box4 {
+  background-image: linear-gradient(#2f86a6, white);
+}
+
+.game-over {
+  background-image: linear-gradient(#c50808, #c50808);
+}
+
+.pressed {
+  background-color: rgb(102, 95, 95);
+}
+
+.text {
+  color: white;
+  font-size: 1.3rem;
+  text-align: center;
+  padding-top: 3rem;
+  margin: 1rem 0;
+}
+
+@media screen and (max-width: 426px) {
+  .box {
+    width: 8.5rem;
+    height: 8.5rem;
+    margin: 1rem;
+    border: 0.3rem solid black;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  h1 {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (min-width: 322px) and (max-width: 376px) {
+  h1 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 322px) and (max-width: 376px) {
+  h1 {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (min-width: 377px) and (max-width: 426px) {
+  h1 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 427px) and (max-width: 769px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+}
